@@ -7,9 +7,12 @@ class timeManager : public singletonBase<timeManager>
 private:
 	timer* _timer;
 
-public:
 	timeManager();
 	~timeManager();
+
+	friend singletonBase;
+
+public:
 
 	HRESULT init();
 	void release();
@@ -20,4 +23,3 @@ public:
 	inline float getWorldTime() const { return _timer->getWorldTime(); }
 	inline int getFrameRate(void) const { return _timer->getFrameRate(); }
 };
-

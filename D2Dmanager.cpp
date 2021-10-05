@@ -49,6 +49,7 @@ HRESULT D2Dmanager::Init()
 
 		// ºê·¯½¬ »ý¼º
 		defaultBrush = CreateBrush(RGB(0, 0, 0));
+		pRenderTarget->CreateSolidColorBrush(ColorF(1.0f, 1.0f, 1.0f, 1.0f), &white_brush);
 
 		hr = pWriteFactory->CreateTextFormat(L"¸¼Àº°íµñ", NULL, DWRITE_FONT_WEIGHT_REGULAR,
 			DWRITE_FONT_STYLE_NORMAL, DWRITE_FONT_STRETCH_NORMAL, 17.0f, L"", &pDefaultTextFormat);
@@ -66,6 +67,8 @@ void D2Dmanager::release()
 	pWriteFactory->Release();
 	pRenderTarget->Release();
 	pD2DFactory->Release();
+
+	white_brush->Release();
 }
 
 void D2Dmanager::Update()

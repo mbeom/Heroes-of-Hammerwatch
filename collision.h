@@ -22,6 +22,9 @@ private:
 
 	D2D1_RECT_F temp;
 
+	int tileIndex[2];
+	int tileIndex2[3];
+
 	//연산변수
 	bool _boolBlackSmith;
 	bool _boolInn;

@@ -4,6 +4,12 @@
 
 class D2Dmanager : public singletonBase<D2Dmanager>
 {
+private:
+	D2Dmanager();
+	~D2Dmanager();
+
+	friend singletonBase;
+
 public:
 
 	ID2D1Factory* pD2DFactory;
@@ -13,11 +19,9 @@ public:
 	IDWriteTextFormat* pCustomTextFormat;		//커스텀 텍스트 포맷
 	ID2D1SolidColorBrush* defaultBrush;			//기본 검정색 브러쉬
 
+	ID2D1SolidColorBrush* white_brush;
 	ID2D1BitmapRenderTarget* RenderTarget;
 	ID2D1Bitmap* bitmap;
-
-	D2Dmanager();
-	~D2Dmanager();
 
 	HRESULT Init();
 	void release();

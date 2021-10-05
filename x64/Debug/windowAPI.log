@@ -1,12 +1,82 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
   stdafx.cpp
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.h(22): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.h(24): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(110): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(111): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(112): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(114): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(115): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.h(116): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CameraManager.cpp
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.cpp(14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.cpp(15): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  D2Dmanager.cpp
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(168): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(169): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(170): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(171): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ImageManager.cpp
+  MouseCursor.cpp
+  Ui.cpp
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(209): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(484): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(496): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(504): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(506): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(507): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(512): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(514): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(515): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(520): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(610): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(616): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(624): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(628): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(698): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(713): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(816): warning C4477: 'swprintf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(866): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(984): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1066): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1085): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1201): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1214): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1091): warning C4101: 'playTime' :참조되지 않은 지역 변수입니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1171): warning C4101: 'playTime' :참조되지 않은 지역 변수입니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1246): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1583): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1611): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1613): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1614): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1616): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1618): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1619): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1623): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1624): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1626): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1628): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1629): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1633): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1635): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1638): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1640): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1643): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1645): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1648): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1650): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1652): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1653): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1654): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1655): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1662): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1685): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1686): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1687): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1688): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1689): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1690): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1691): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1692): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   action.cpp
   animation.cpp
   bat.cpp
@@ -24,42 +94,34 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\bullets.c
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\bullets.cpp(206): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\bullets.cpp(221): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\bullets.cpp(220): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  CameraManager.cpp
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.cpp(14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\cameramanager.cpp(15): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   collision.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(59): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(74): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(71): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(72): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(165): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(166): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(563): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(84): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(85): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(178): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(179): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(576): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(619): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(620): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(712): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(713): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(902): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(914): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(913): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(940): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(940): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(941): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(941): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(942): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(942): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(943): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(943): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(944): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(944): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(1028): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(1028): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  D2Dmanager.cpp
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(165): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(166): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(167): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\d2dmanager.cpp(168): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(589): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(632): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(633): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(725): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(726): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(915): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(927): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(926): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(953): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(953): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(954): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(954): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(955): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(955): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(956): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(956): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(957): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(957): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(1041): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\collision.cpp(1041): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   data.cpp
   dungeon.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(59): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -145,10 +207,13 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\image.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\image.cpp(516): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\image.cpp(521): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\image.cpp(524): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  ImageManager.cpp
   iniDataManager.cpp
   item.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\item.cpp(154): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  코드를 생성하고 있습니다...
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\inidatamanager.cpp(93): warning C4715: 'iniDataManager::readData': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\inidatamanager.cpp(269): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
+  컴파일하고 있습니다...
   itemManager.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.cpp(43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.cpp(42): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -171,10 +236,6 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanag
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.cpp(293): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\itemmanager.cpp(297): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   keyAniManager.cpp
-  코드를 생성하고 있습니다...
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\inidatamanager.cpp(93): warning C4715: 'iniDataManager::readData': 모든 제어 경로에서 값을 반환하지는 않습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\inidatamanager.cpp(269): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
-  컴파일하고 있습니다...
   keyManager.cpp
   maggot.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maggot.cpp(106): warning C4244: '+=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -199,7 +260,6 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maggot.cp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maptool.cpp(695): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maptool.cpp(867): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maptool.cpp(866): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  MouseCursor.cpp
   npcBlackSmith.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcblacksmith.cpp(23): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcblacksmith.cpp(59): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -275,6 +335,9 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\paladin.c
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\paladin.cpp(248): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\paladin.cpp(256): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\paladin.cpp(256): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  playGround.cpp
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(59): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(74): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   player.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cpp(12): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cpp(13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
@@ -292,9 +355,6 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cpp(665): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cpp(688): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\player.cpp(689): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  playGround.cpp
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(59): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(74): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   ranger.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ranger.cpp(7): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ranger.cpp(9): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -404,12 +464,12 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\tick.cpp(
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\tick.cpp(272): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\tick.cpp(274): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   tile.cpp
-  timeManager.cpp
   코드를 생성하고 있습니다...
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\scenemanager.cpp(89): warning C4715: 'sceneManager::currentScene': 모든 제어 경로에서 값을 반환하지는 않습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maptool.cpp(1034): warning C4715: 'mapTool::terrainSelect': 모든 제어 경로에서 값을 반환하지는 않습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\maptool.cpp(1098): warning C4715: 'mapTool::objSelect': 모든 제어 경로에서 값을 반환하지는 않습니다.
   컴파일하고 있습니다...
+  timeManager.cpp
   timer.cpp
   title.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\title.cpp(82): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -434,66 +494,6 @@ c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\title.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\title.cpp(290): warning C4244: '인수': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\title.cpp(296): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   txtData.cpp
-  Ui.cpp
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(209): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(484): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(496): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(504): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(506): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(507): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(512): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(514): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(515): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(520): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(610): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(616): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(624): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(628): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(698): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(713): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(816): warning C4477: 'swprintf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(866): warning C4390: ';': 제어된 빈 문이 있습니다. 이 문이 필요합니까?
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(984): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1066): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1085): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1201): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1214): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1091): warning C4101: 'playTime' :참조되지 않은 지역 변수입니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1171): warning C4101: 'playTime' :참조되지 않은 지역 변수입니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1246): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1583): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1611): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1613): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1614): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1616): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1618): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1619): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1623): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1624): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1626): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1628): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1629): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1633): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1635): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1638): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1640): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1643): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1645): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1648): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1650): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1652): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1653): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1654): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1655): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1662): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1685): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1686): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1687): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1688): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1689): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1690): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1691): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\ui.cpp(1692): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   utils.cpp
   village.cpp
 c:\users\owner\downloads\heroesofhammerwatch(최종 합본 2021-07-26)\npcmanager.h(59): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.

@@ -8,10 +8,12 @@ private:
 	float camera_x, camera_y;
 	float _x, _y;
 
-public:
-
 	CameraManager();
 	~CameraManager();
+
+	friend singletonBase;
+
+public:
 
 	HRESULT init(int width, int height);
 	void release();

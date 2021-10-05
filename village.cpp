@@ -124,6 +124,7 @@ void village::update()
 void village::render()
 {
 	_mapTool->render();
+	_collision->render();
 	_npcManager->render();
 	ITEMMANAGER->render();
 	_player->render();

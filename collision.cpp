@@ -50,7 +50,20 @@ void collision::update()
 
 void collision::render()
 {
+	if (KEYMANAGER->isToggleKey(VK_F3))
+	{
+		for (int i = 0; i < 2; i++)
+		{
+			D2D1_RECT_F temp = _mapTool->getTile()[tileIndex[i]].rc;
+			D2DMANAGER->Rectangle(D2DMANAGER->white_brush, temp);
+		}
 
+		for (int i = 0; i < 3; i++)
+		{
+			D2D1_RECT_F temp = _mapTool->getTile()[tileIndex2[i]].rc;
+			D2DMANAGER->Rectangle(D2DMANAGER->white_brush, temp);
+		}
+	}
 }
 
 /********************************************************** 4 방향 충돌 *******************************************************************/
@@ -59,7 +72,7 @@ void collision::player_AND_CrossTiles()
 {
 	D2D1_RECT_F collision;
 
-	int tileIndex[2];	//타일 검출에 필요한 인덱스
+	//int tileIndex[2];	//타일 검출에 필요한 인덱스
 	int tileX, tileY;	//플레이어가 밟고 있는 타일의 인덱스
 
 	//가상의 판정렉트에 현재 렉트를 대입해주자
@@ -153,7 +166,7 @@ void collision::player_AND_diagonalTiles()
 {
 	D2D1_RECT_F collision;
 
-	int tileIndex[3];	//타일 검출에 필요한 인덱스
+	//int tileIndex[3];	//타일 검출에 필요한 인덱스
 	int tileX, tileY;	//플레이어가 밟고 있는 타일의 인덱스
 
 	//가상의 판정렉트에 현재 렉트를 대입해주자
@@ -168,51 +181,51 @@ void collision::player_AND_diagonalTiles()
 	switch (_player->get_playerInfo().moving_direction)
 	{
 	case Player_Direction::LEFT_TOP:
-		tileIndex[0] = tileX + (tileY * TILEX);
-		tileIndex[2] = tileX + (tileY + 1) * TILEX;
-		tileIndex[1] = (tileX + 1) + tileY * TILEX;
+		tileIndex2[0] = tileX + (tileY * TILEX);
+		tileIndex2[2] = tileX + (tileY + 1) * TILEX;
+		tileIndex2[1] = (tileX + 1) + tileY * TILEX;
 		break;
 	case Player_Direction::RIGHT_TOP:
-		tileIndex[0] = (tileX + tileY * TILEX) + 1;
-		tileIndex[2] = (tileX + (tileY + 1) * TILEX) + 1;
-		tileIndex[1] = (tileX)+ tileY * TILEX;
+		tileIndex2[0] = (tileX + tileY * TILEX) + 1;
+		tileIndex2[2] = (tileX + (tileY + 1) * TILEX) + 1;
+		tileIndex2[1] = (tileX)+ tileY * TILEX;
 		break;
 	case Player_Direction::LEFT_BOTTOM:
-		tileIndex[0] = tileX + (tileY * TILEX);
-		tileIndex[1] = tileX + (tileY + 1) * TILEX;
-		tileIndex[2] = (tileX + 1) + (tileY + 1) * TILEX;
+		tileIndex2[0] = tileX + (tileY * TILEX);
+		tileIndex2[1] = tileX + (tileY + 1) * TILEX;
+		tileIndex2[2] = (tileX + 1) + (tileY + 1) * TILEX;
 		break;
 	case Player_Direction::RIGHT_BOTTOM:
-		tileIndex[0] = (tileX + tileY * TILEX) + 1;
-		tileIndex[1] = (tileX + (tileY + 1) * TILEX) + 1;
-		tileIndex[2] = (tileX)+(tileY + 1) * TILEX;
+		tileIndex2[0] = (tileX + tileY * TILEX) + 1;
+		tileIndex2[1] = (tileX + (tileY + 1) * TILEX) + 1;
+		tileIndex2[2] = (tileX)+(tileY + 1) * TILEX;
 		break;
 	default:
-		tileIndex[0] = NULL;
-		tileIndex[1] = NULL;
-		tileIndex[2] = NULL;
+		tileIndex2[0] = NULL;
+		tileIndex2[1] = NULL;
+		tileIndex2[2] = NULL;
 		break;
 	}
 
 	for (int i = 0; i < 3; ++i)
 	{
-		if (tileIndex[i] == NULL) break;
+		if (tileIndex2[i] == NULL) break;
 
 		D2D1_RECT_F temp;
-		D2D1_RECT_F tile = _mapTool->getTile()[tileIndex[i]].rc;
+		D2D1_RECT_F tile = _mapTool->getTile()[tileIndex2[i]].rc;
 
-		if (((_mapTool->getTileAttribute()[tileIndex[i]] & ATTR_UNMOVE) == ATTR_UNMOVE) && INTERSECTION_RECT(temp, tile, collision))
+		if (((_mapTool->getTileAttribute()[tileIndex2[i]] & ATTR_UNMOVE) == ATTR_UNMOVE) && INTERSECTION_RECT(temp, tile, collision))
 		{
 			_player->set_hit(true);
 			switch (_player->get_playerInfo().moving_direction)
 			{
 			case Player_Direction::LEFT_TOP:
 
-				if (((_mapTool->getTileAttribute()[tileIndex[2]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+				if (((_mapTool->getTileAttribute()[tileIndex2[2]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 				{
-					if (((_mapTool->getTileAttribute()[tileIndex[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+					if (((_mapTool->getTileAttribute()[tileIndex2[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 					{
-						D2D1_RECT_F tile = _mapTool->getTile()[tileIndex[0]].rc;
+						D2D1_RECT_F tile = _mapTool->getTile()[tileIndex2[0]].rc;
 
 						collision.left = tile.right;
 						collision.right = collision.left + _player->get_playerInfo().width;
@@ -229,7 +242,7 @@ void collision::player_AND_diagonalTiles()
 					}
 					_player->set_x((collision.left + collision.right) / 2);
 				}
-				else if (((_mapTool->getTileAttribute()[tileIndex[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+				else if (((_mapTool->getTileAttribute()[tileIndex2[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 				{
 					collision.top = tile.bottom;
 					collision.bottom = collision.top + _player->get_playerInfo().height;
@@ -254,11 +267,11 @@ void collision::player_AND_diagonalTiles()
 
 			case Player_Direction::RIGHT_TOP:
 
-				if (((_mapTool->getTileAttribute()[tileIndex[2]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+				if (((_mapTool->getTileAttribute()[tileIndex2[2]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 				{
-					if (((_mapTool->getTileAttribute()[tileIndex[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+					if (((_mapTool->getTileAttribute()[tileIndex2[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 					{
-						D2D1_RECT_F tile = _mapTool->getTile()[tileIndex[0]].rc;
+						D2D1_RECT_F tile = _mapTool->getTile()[tileIndex2[0]].rc;
 
 						collision.right = tile.left;
 						collision.left = collision.right - _player->get_playerInfo().width;
@@ -277,7 +290,7 @@ void collision::player_AND_diagonalTiles()
 
 					_player->set_x((collision.left + collision.right) / 2);
 				}
-				else if (((_mapTool->getTileAttribute()[tileIndex[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
+				else if (((_mapTool->getTileAttribute()[tileIndex2[1]] & ATTR_UNMOVE) == ATTR_UNMOVE))
 				{
 					collision.top = tile.bottom;
 					collision.bottom = collision.top + _player->get_playerInfo().height;
